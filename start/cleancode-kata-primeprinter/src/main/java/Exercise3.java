@@ -24,7 +24,7 @@ public class Exercise3 {
                 result = (amount - 0.5 * amount) * (1 - disc);
                 break;
             default:
-                result = amount;
+                result = amount; 
         }
         return result;
     }

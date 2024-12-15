@@ -2,7 +2,7 @@ package com.cleancode.knuth;
 
 public class PrimePrinter {
     public static void main(String[] args) {
-        PrimePrinterHelper helper = new PrimePrinterHelper();
-        helper.invoke();
+        PrimeGenerator generator = new PrimeGenerator();
+        generator.invoke();
     }
 }
